@@ -50,6 +50,7 @@ export default function Home() {
             <h4>Itens da Loja</h4>
 
             <div className="CardsSection">
+            <Card/><Card/><Card/><Card/><Card/><Card/><Card/><Card/><Card/><Card/><Card/><Card/>
             
               {
                 games.map( game => (

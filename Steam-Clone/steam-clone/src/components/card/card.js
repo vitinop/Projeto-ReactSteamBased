@@ -31,14 +31,14 @@ export default function Card(props) {
     <div className='card'>
       <div className='card-item'>
         <div className='card-image'onClick={goToGamePage}>
-          <img src={props.image} alt={props.name}></img>
+          <img src="https://i.pinimg.com/564x/d7/3d/4c/d73d4cc12a2d29826e179358d9d818cc.jpg" alt={props.name}></img>
         </div>
         <h2 className='card-title'>{props.name}</h2>
-        <span className='card-preco'>{'R$ ' + props.preco}</span>
+        <span className='card-preco'>{'R$ XX,XX'}</span>
       
       </div>
       <button className='wishlist'>
-      <FaRegStar onClick={handleWish} className={`wishlist ${wish ? "wishFalse" : "" }`} />
+     
         <FaStar onClick={handleWish} className={`wished ${wish ? "wish" : "" }`}/>
       </button>
     </div>

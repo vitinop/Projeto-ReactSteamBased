@@ -65,17 +65,17 @@ function Slidermain(props) {
             showStatus={false}
           >
             <div>
-              <img src={game.image} alt={game.name} />
+              <img src='https://www.maodevacadescontos.com.br/wp-content/uploads/2019/07/Death-Stranding.jpg' alt={game.name} />
             </div>
            
             <div>
-            <img src={game2.image} alt={game2.name} />
+            <img src='https://i.pinimg.com/564x/d7/3d/4c/d73d4cc12a2d29826e179358d9d818cc.jpg'alt={game2.name} />
             </div>
             <div>
-            <img src={game3.image} alt={game3.name} />
+            <img src="https://static-wp-tor15-prd.torcedores.com/wp-content/uploads/2020/03/maxresdefault-5-601x338.jpg" alt={game3.name} />
             </div>
             <div>
-            <img src={game4.image} alt={game4.name} />
+            <img src="https://valedopontar.com.br/wp-content/uploads/2017/11/Review-The_Witcher_3_Wild_Hunt-A_perfeicao_dos_RPGs.jpg" alt={game4.name} />
             </div>
           </Carousel>
           <div className="SliderGameInfo">
