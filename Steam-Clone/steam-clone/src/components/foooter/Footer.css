@@ -1,0 +1,48 @@
+footer hr {
+    width: 90%;
+  }
+ 
+  .legal-container{
+    background-color: #181A21;
+  }
+  .legal {
+    background-color: #181A21 ;
+    min-width: 950px;
+    width: 950px;
+    max-width: 950px;
+    flex-direction: column;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .legal a {
+    text-decoration: none;
+    color: #959EAB;
+    margin: 5px;
+    font-size: 12px;
+  }
+  .legal a:hover {
+    color: #67c1f5;
+  }
+  
+  .legal-top {
+    color: #959EAB;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+  }
+  
+  .legal-bottom {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .legal-bottom img{
+    width: 13px;
+    
+  }
+
+  .footer_valve img{
+    width: 88px;
+  }

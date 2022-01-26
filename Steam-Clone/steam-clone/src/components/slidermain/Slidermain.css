@@ -1,0 +1,41 @@
+.SliderBlockMaster {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0px 7px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #c6d4df;
+    font-size: 12px;
+}
+
+.SliderDestaque {
+
+    display: flex;
+    width: 1000px;
+    height: 337px;
+    background-color: #181A21;
+}
+
+.SliderGameImgs {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.SliderGameInfo {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.SliderGameInfo img {
+    width: 160px;
+}
+
+.SliderGameSubImgs {
+    padding: 3px;
+}
+

@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.MainBody h4{
+  text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #c6d4df;
+    font-size: 12px;
+}
+.MainBody{
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  margin-right:270px ;
+  margin-top: 30px;
+}
+.TotalBody{
+  display: flex;
+  justify-content: center;
+
+}
+.SliderSection{
+  margin-top:40px;
+}
+
+.CardsSection{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+
+}
